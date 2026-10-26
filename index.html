@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hemanth Pindi | Web Developer & ML Enthusiast</title>
+  <meta name="description" content="Portfolio of Hemanth Pindi, CSE student, web developer and machine learning enthusiast." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="Portfolio.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <a href="#home" class="logo">HP.</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+    <nav id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <p class="eyebrow">Hello, I'm</p>
+    <h1>Hemanth Pindi</h1>
+    <h2 class="typing">I'm a <span id="typed"></span><span class="cursor">|</span></h2>
+    <p class="lead">Web Developer • ML Enthusiast. I build clean, useful things for the web and I'm learning how to make them smarter.</p>
+    <div class="buttons">
+      <a href="#projects" class="btn primary">View Projects</a>
+      <a href="#contact" class="btn ghost">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section reveal">
+    <h2 class="title">🍂 About Me</h2>
+    <ul class="about-list">
+      <li>🎓 Computer Science engineering student at Sri Vasavi Engineering College</li>
+      <li>💻 Web developer who loves turning ideas into working pages</li>
+      <li>🤖 Machine Learning enthusiast, currently going deeper into ML</li>
+      <li>🌶️ Learning Flask to connect my Python and web skills</li>
+      <li>🛠️ I like building real projects more than just watching tutorials</li>
+      <li>📍 Based in West Godavari, Andhra Pradesh, India</li>
+      <li>🚀 Open to internships, collabs and learning opportunities</li>
+    </ul>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section reveal">
+    <h2 class="title">🧰 Tech Stack</h2>
+    <div class="skills-grid">
+      <div class="card">
+        <h3>Web</h3>
+        <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+      </div>
+      <div class="card">
+        <h3>Programming</h3>
+        <div class="chips"><span>Python</span></div>
+      </div>
+      <div class="card">
+        <h3>Backend & ML (learning)</h3>
+        <div class="chips"><span>Flask</span><span>Machine Learning</span></div>
+      </div>
+      <div class="card">
+        <h3>Tools</h3>
+        <div class="chips"><span>Git</span><span>GitHub</span><span>VS Code</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section reveal">
+    <h2 class="title">🎯 Featured Projects</h2>
+    <div class="projects-grid">
+
+      <!-- TODO: replace the title, description, tech and links for each project -->
+      <article class="card project">
+        <h3>Project One</h3>
+        <p>A short description of what this project does and the problem it solves.</p>
+        <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        <div class="links">
+          <a href="#" target="_blank" rel="noopener">GitHub</a>
+          <a href="#" target="_blank" rel="noopener">Live Demo</a>
+        </div>
+      </article>
+
+      <article class="card project">
+        <h3>Project Two</h3>
+        <p>A short description of what this project does and the problem it solves.</p>
+        <div class="chips"><span>Python</span><span>Flask</span></div>
+        <div class="links">
+          <a href="#" target="_blank" rel="noopener">GitHub</a>
+          <a href="#" target="_blank" rel="noopener">Live Demo</a>
+        </div>
+      </article>
+
+      <article class="card project">
+        <h3>Project Three</h3>
+        <p>A short description of what this project does and the problem it solves.</p>
+        <div class="chips"><span>Python</span><span>Machine Learning</span></div>
+        <div class="links">
+          <a href="#" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section reveal">
+    <h2 class="title">🎓 Education</h2>
+    <div class="card">
+      <h3>B.Tech, Computer Science Engineering</h3>
+      <p>Sri Vasavi Engineering College, West Godavari, Andhra Pradesh</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section reveal">
+    <h2 class="title">📬 Let's Connect</h2>
+    <p class="center">Got an idea, an opportunity, or just want to say hi? My inbox is open.</p>
+    <div class="buttons center-row">
+      <a class="btn primary" href="mailto:hemanthpindi02@gmail.com">Email Me</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/hemanth-pindi-08758134b" target="_blank" rel="noopener">LinkedIn</a>
+      <!-- TODO: replace YOUR-GITHUB-USERNAME -->
+      <a class="btn ghost" href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> Hemanth Pindi. Built with HTML, CSS and JavaScript.</p>
+  </footer>
+
+  <script src="Portfolio.js"></script>
+</body>
+</html>
